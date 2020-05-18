@@ -7,8 +7,8 @@ services:
                 restart: always
                 environment:
                         MYSQL_ROOT_PASSWORD: rootpass
-                        MYSQL_USER: kapil
-                        MYSQL_PASSWORD: kapil
+                        MYSQL_USER: chelsi
+                        MYSQL_PASSWORD: chelsi
                         MYSQL_DATABASE: mydb
         wpos:
                 depends_on:
@@ -21,8 +21,8 @@ services:
                 restart: always
                 environment:
                         WORDPRESS_DB_HOST: dbos
-                        WORDPRESS_DB_USER: kapil
-                        WORDPRESS_DB_PASSWORD: kapil
+                        WORDPRESS_DB_USER: chelsi
+                        WORDPRESS_DB_PASSWORD: chelsi
                         WORDPRESS_DB_NAME: mydb
 volumes:
         mysql_storage:
